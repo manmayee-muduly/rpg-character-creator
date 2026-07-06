@@ -38,4 +38,12 @@ def create_character(name, strength, intelligence, charisma):
     f'CHA {full_dot * charisma}{empty_dot * (10 - charisma)}')
 print(create_character('ren', 4, 2, 1))
 
+<br>
+
+# Output : 
+ren
+STR ●●●●○○○○○○
+INT ●●○○○○○○○○
+CHA ●○○○○○○○○○
+
 

@@ -4,6 +4,10 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+![GitHub last commit](https://img.shields.io/github/last-commit/manmayee-muduly/rpg-character-creator)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/manmayee-muduly/rpg-character-creator)
+
  # RPG Character Creator ⚔️
 
 A Python project that creates RPG characters with customizable attributes.
@@ -48,7 +52,7 @@ git clone https://github.com/your-username/rpg-character-creator.git
 ## Run
 
 ```bash
-python main.py
+python rpg.py
 ```
 
 ## Author

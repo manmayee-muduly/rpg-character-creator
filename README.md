@@ -1,4 +1,10 @@
-# RPG Character Creator ⚔️
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+
+![Project Status](https://img.shields.io/badge/Status-Completed-green)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+ # RPG Character Creator ⚔️
 
 A Python project that creates RPG characters with customizable attributes.
 

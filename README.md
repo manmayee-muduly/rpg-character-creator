@@ -1,49 +1,52 @@
-# Built-an-RPG-Character-
-practice the basic of python by building a small app that creates a character for an RPG (Role-Playing Game) adventure. 
+# RPG Character Creator ⚔️
 
-# RPG code for character name = ren .
-<br>
+A Python project that creates RPG characters with customizable attributes.
 
-full_dot = '●'
-empty_dot = '○'
-def create_character(name, strength, intelligence, charisma):
-    if not isinstance(name, str) :
-        return 'The character name should be a string'
+## Features
 
-    if name == "":
-        return 'The character should have a name'
+- Create unique characters
+- Assign strength points
+- Assign intelligence points
+- Assign charisma points
+- Validate user input
 
-    if len(name) > 10 :
-        return 'The character name is too long'
+## Technologies Used
 
-    for char in name:
-        if char == ' ' :
-           return 'The character name should not contain spaces'
+- Python 3
 
-    if (not isinstance(strength, int) or not isinstance(intelligence, int) or not isinstance(charisma, int)) :
-        return 'All stats should be integers'
+## Example Output
 
-    if strength < 1 or intelligence < 1 or charisma < 1 :
-        return 'All stats should be no less than 1'
+```text
+Character: Ren
 
-    if strength > 4 or intelligence > 4 or charisma > 4 :
-        return 'All stats should be no more than 4'
+Strength: 8
+Intelligence: 7
+Charisma: 9
+```
 
-    if (strength + intelligence + charisma ) != 7 :
-        return 'The character should start with 7 points'
+## Project Structure
 
-    return (f'{name}\n'
-    f'STR {full_dot * strength}{empty_dot * (10 - strength)}\n'
-    f'INT {full_dot * intelligence}{empty_dot * (10 - intelligence)}\n'
-    f'CHA {full_dot * charisma}{empty_dot * (10 - charisma)}')
-print(create_character('ren', 4, 2, 1))
+```text
+rpg-character-creator/
+├── rpg.py
+├── character.py
+└── README.md
+```
 
-<br>
+## Installation
 
-# Output : 
-ren
-STR ●●●●○○○○○○
-INT ●●○○○○○○○○
-CHA ●○○○○○○○○○
+```bash
+git clone https://github.com/your-username/rpg-character-creator.git
+```
 
+## Run
+
+```bash
+python main.py
+```
+
+## Author
+Manmayee Muduly
+
+Manmayee Muduly
 

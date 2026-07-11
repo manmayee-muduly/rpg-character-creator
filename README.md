@@ -20,6 +20,15 @@ A Python project that creates RPG characters with customizable attributes.
 - Assign charisma points
 - Validate user input
 
+## Skills Demonstrated
+
+- Functions
+- Conditional statements
+- Loops
+- Input validation
+- Object-oriented programming
+- Python fundamentals
+
 ## Technologies Used
 
 - Python 3
@@ -27,11 +36,12 @@ A Python project that creates RPG characters with customizable attributes.
 ## Example Output
 
 ```text
-Character: Ren
+ren
+STR ●●●●○○○○○○
+INT ●●○○○○○○○○
+CHA ●○○○○○○○○○
 
-Strength: 8
-Intelligence: 7
-Charisma: 9
+
 ```
 
 ## Project Structure
